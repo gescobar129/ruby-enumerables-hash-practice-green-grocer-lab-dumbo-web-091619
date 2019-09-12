@@ -62,4 +62,6 @@ def checkout(cart, coupons)
     puts value
     puts "&&&&&&&&&&&&&&&&&&&&&&&"
   end
+  new_cart3.each do |grocery_item, value|
+    total_cost = 
 end
