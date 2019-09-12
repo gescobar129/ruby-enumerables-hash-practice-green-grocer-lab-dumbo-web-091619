@@ -63,7 +63,7 @@ def checkout(cart, coupons)
     puts "&&&&&&&&&&&&&&&&&&&&&&&"
   end
   new_cart3.each do |grocery_item, value|
-  total_cost = value[:price].inject { |a,b| a + b }
+  total_cost = value[:price].inject(0) { |a,b| a + b }
   puts total_cost
   puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 end
