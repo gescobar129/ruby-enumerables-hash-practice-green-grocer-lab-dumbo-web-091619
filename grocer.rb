@@ -39,7 +39,8 @@ def apply_clearance(cart)
   puts "$$$$$$$$$$$$$$$$$$$$"
   new_cart = {}
   cart.each do |grocery_item, value|
-    if value[:clearance] == true 
+    if value[:clearance] == true
+      puts "%%%%%%%%%%%%%%"
       value[:price] == 5.00
     end
     puts value
