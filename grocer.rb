@@ -61,4 +61,5 @@ def checkout(cart, coupons)
     value[:price] = value[:price] * value[:count] 
     puts value
     puts "&&&&&&&&&&&&&&&&&&&&&&&"
+  end
 end
