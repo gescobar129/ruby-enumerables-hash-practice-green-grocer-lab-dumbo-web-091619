@@ -67,4 +67,6 @@ def checkout(cart, coupons)
   #value[:price].inject(0) { |sum,hash| sum + hash[:price] }
   new_cart3.each do |grocery_item, value|
     total_cost = total_cost + value[:price]
+    puts total_cost
+    puts "!!!!!!!!!!!!!!!!!!!"
 end
