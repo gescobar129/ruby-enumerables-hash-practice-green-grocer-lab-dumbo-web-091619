@@ -43,6 +43,11 @@ def apply_clearance(cart)
   return cart 
 end
 
+
 def checkout(cart, coupons)
-  # code here
+  puts cart 
+  puts "********************"
+  consolidate_cart(cart)
+  puts cart
+  puts"@@@@@@@@@@@@@@@@@@@@@@@@"
 end
