@@ -69,4 +69,5 @@ def checkout(cart, coupons)
     total_cost = total_cost + value[:price]
     puts total_cost
     puts "!!!!!!!!!!!!!!!!!!!"
+  end
 end
