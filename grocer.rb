@@ -56,4 +56,9 @@ def checkout(cart, coupons)
   new_cart3 = apply_clearance(new_cart2)
   puts new_cart3
   puts "^^^^^^^^^^^^^^^^^^^^^^^"
+  new_hash = {}
+  new_cart3.each do |grocery_item, value|
+    value[:price] = value[:price] * value[:count] 
+    puts value
+    puts "&&&&&&&&&&&&&&&&&&&&&&&"
 end
