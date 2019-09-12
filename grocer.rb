@@ -38,8 +38,7 @@ def apply_clearance(cart)
   cart.each do |grocery_item, value|
     if grocery_item[:clearance] == true 
       grocery_item[:price] == grocery_item[:price] * 0.20
-      puts grocery_item
-      puts "*********"
+      
     end
   end
   return cart 
