@@ -47,10 +47,13 @@ end
 def checkout(cart, coupons)
   puts cart 
   puts "********************"
-  new_cart = consolidate_cart(cart)
-  puts new_cart
+  new_cart1 = consolidate_cart(cart)
+  puts new_cart1
   puts"@@@@@@@@@@@@@@@@@@@@@@@@"
-  new_new_cart = apply_coupons(new_cart,coupons)
+  new_cart2 = apply_coupons(new_cart1,coupons)
   puts new_new_cart
   puts "$$$$$$$$$$$$$$$$$$$$$$$"
+  new_cart3 = apply_clearance(new_cart2)
+  puts new_cart3
+  puts "^^^^^^^^^^^^^^^^^^^^^^^"
 end
