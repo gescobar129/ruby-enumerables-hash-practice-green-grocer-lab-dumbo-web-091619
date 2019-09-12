@@ -51,7 +51,7 @@ def checkout(cart, coupons)
   puts new_cart1
   puts"@@@@@@@@@@@@@@@@@@@@@@@@"
   new_cart2 = apply_coupons(new_cart1,coupons)
-  puts new_new_cart
+  puts new_cart2
   puts "$$$$$$$$$$$$$$$$$$$$$$$"
   new_cart3 = apply_clearance(new_cart2)
   puts new_cart3
